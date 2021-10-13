@@ -1,0 +1,316 @@
+body{ 
+ 
+    background-color: beige;
+}
+#grey {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 200px solid transparent;
+    border-right: 200px solid grey;
+    border-bottom: 200px solid transparent;
+    transform: rotate(270deg);
+    left: 925px;
+    top: 0px;
+
+
+}
+
+#red {
+    position: absolute;
+    left: 725px;
+    top: 200px;
+    width: 0;
+    height: 0;
+    border-left: 300px solid transparent;
+    border-right: 300px solid transparent;
+    border-bottom: 400px solid red;
+    transform: rotate(270deg);
+
+
+
+    transition: background-color 2s;
+
+}
+
+#lightGrey{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 300px solid lightgrey;
+    border-right: 400px solid transparent;
+    top: 400px;
+    left: 825px;
+    
+  }
+
+#white{
+    position: absolute;
+
+    width: 0;
+    height: 0;
+    border-top: 180px solid transparent;
+    border-right: 180px solid white;
+    border-bottom: 180px solid transparent;
+    transform: rotate(180deg);
+    left: 823px;
+    top: 90px;
+}
+
+#black{
+    position: absolute;
+    left: 300px;
+    top: 150px;
+    width: 0;
+    height: 0;
+    border-left: 315px solid transparent;
+    border-right: 400px solid transparent;
+    border-bottom: 400px solid black;
+    transform: rotate(270deg);
+
+
+}
+
+#lightGrey2 { 
+    position: absolute;
+
+    width: 0;
+    height: 0;
+    border-top: 250px solid transparent;
+    border-right: 250px solid grey;
+    border-bottom: 250px solid transparent;
+    transform: rotate(45deg);
+    left: 359px;
+    top: -62px;
+}
+
+#yellow{
+    position: absolute;  
+
+    width: 0;
+    height: 0;
+    border-top: 200px solid transparent;
+    border-right: 200px solid yellow;
+    border-bottom: 200px solid transparent;
+    transform: rotate(180deg);
+    left: 395px;
+    top: 302px;
+
+}
+
+#white2{
+
+    position: absolute;  
+    
+    width: 0;
+    height: 0;
+    border-top: 250px solid transparent;
+    border-right: 200px solid white;
+    border-bottom: 200px solid transparent;
+    transform: rotate(90deg);
+    left: 515px;
+    top: 370px;
+    
+
+}
+#boarderTop{
+    position: absolute;
+    right: 250px;  
+    top: -299px;
+
+    width: 900px;
+    height: 400px;
+    background-color: beige;
+}
+
+#boarderBottom{
+    position: absolute;
+    right: 250px;  
+    top: 690px;
+
+    width: 900px;
+    height: 400px;
+    background-color: beige;
+}
+
+#redA {
+    position: absolute;
+    left: 725px;
+    top: 200px;
+    width: 0;
+    height: 0;
+    border-left: 300px solid transparent;
+    border-right: 300px solid transparent;
+    border-bottom: 400px solid red;
+    transform: rotate(270deg);
+
+
+
+    animation: zipInR 2s;
+
+}
+
+#blackA{
+    position: absolute;
+    left: 300px;
+    top: 150px;
+    width: 0;
+    height: 0;
+    border-left: 315px solid transparent;
+    border-right: 400px solid transparent;
+    border-bottom: 400px solid black;
+    transform: rotate(270deg);
+
+    animation: zipInB 2s;
+}
+
+#lightGrey2A { 
+    position: absolute;
+
+    width: 0;
+    height: 0;
+    border-top: 250px solid transparent;
+    border-right: 250px solid grey;
+    border-bottom: 250px solid transparent;
+    transform: rotate(45deg);
+    left: 359px;
+    top: -62px;
+
+    animation: fallInG 3s;
+}
+
+#yellowA{
+    position: absolute;  
+
+    width: 0;
+    height: 0;
+    border-top: 200px solid transparent;
+    border-right: 200px solid yellow;
+    border-bottom: 200px solid transparent;
+    transform: rotate(180deg);
+    left: 395px;
+    top: 302px;
+
+    animation: fallUpY 4.2s;
+}
+
+#white2A{
+
+    position: absolute;  
+    
+    width: 0;
+    height: 0;
+    border-top: 250px solid transparent;
+    border-right: 200px solid white;
+    border-bottom: 200px solid transparent;
+    transform: rotate(90deg);
+    left: 515px;
+    top: 370px;
+    
+    animation: fallUpW 4s;
+}
+
+#whiteA{
+    position: absolute;
+
+    width: 0;
+    height: 0;
+    border-top: 180px solid transparent;
+    border-right: 180px solid white;
+    border-bottom: 180px solid transparent;
+    transform: rotate(180deg);
+    left: 823px;
+    top: 90px;
+
+    animation: fallInW 3.2s;
+}
+
+#greyA {
+    position: absolute;
+
+    width: 0;
+    height: 0;
+    border-top: 200px solid transparent;
+    border-right: 200px solid grey;
+    border-bottom: 200px solid transparent;
+    transform: rotate(270deg);
+    left: 925px;
+    top: 0px;
+
+    animation: fallInG2 3.4s;
+}
+
+#lightGreyA{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 300px solid lightgrey;
+    border-right: 400px solid transparent;
+    top: 400px;
+    left: 825px;
+    
+    animation: fallUpG 3.6s;
+  }
+
+  #boarderTopA{
+    position: absolute;
+    right: 250px;  
+    top: -299px;
+
+    width: 900px;
+    height: 400px;
+    background-color: beige;
+
+    animation: zipInBo 5s;
+}
+
+#boarderBottomA{
+    position: absolute;
+    right: 250px;  
+    top: 690px;
+
+    width: 900px;
+    height: 400px;
+    background-color: beige;
+
+    animation: zipInBo 5s;
+}
+
+@keyframes zipInR {
+    from {left: 10000px;}
+    to {left: 725px;}
+  }
+
+@keyframes zipInB {
+    from {left: 9575px;}
+    to {left: 300px;}
+  }
+
+  @keyframes fallInG {
+    from {top: -100000px;}
+    to {top: -62px;}
+  }
+  @keyframes fallUpY {
+    from {top: 100000px;}
+    to {top: 302px;}
+  }
+  @keyframes fallUpW {
+    from {top: 100000px;}
+    to {top: 370px;}
+  }
+  @keyframes fallInW {
+    from {top: -100000px;}
+    to {top: 90px;}
+  }
+  @keyframes fallInG2 {
+    from {top: -100000px;}
+    to {top: 0px;}
+  }
+  @keyframes fallUpG {
+    from {top: 1000000px;}
+    to {top: 400px;}
+  }
+  @keyframes zipInBo {
+    from {right: 100000px;}
+    to {right: 250px;}
+  }
